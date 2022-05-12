@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Fast Hand";
+	src: url("./fonts//Fast_Hand.otf");
+}
+
+:root {
+	--color-yellow: #f6ac0e;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	background-color: rgb(11, 15, 25);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fast Hand' !important;
+}
+
+#phaser-game {
+	width: 100%;
+	height: 100%;
+}
